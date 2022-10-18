@@ -16,15 +16,17 @@ public class Main {
         //Задание 2
         System.out.println("Задание 2 ");
         for (int a = 10; a >= 1; a--) {
-            System.out.println(+a);
-                    }
+            System.out.print(a + " ");
+        }
         System.out.println("    ");
         int start = 0;
         while (start < 10) {
             start++;
-            System.out.println(start);
+            System.out.print(start + " ");
+
         }
         //Задание 3
+        System.out.println("    ");
         System.out.println("Задание 3 ");
         int populationSize = 12_000_000;
         int fertility = 17;
